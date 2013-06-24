@@ -60,7 +60,6 @@ public class Game extends Canvas implements Runnable {
 		jFrame = new JFrame(); 
 		key = new Keyboard();		
 		addKeyListener(key);
-		//handler = new EventHandler(key, screen);
 		try {
 			font = Font.createFont(Font.TRUETYPE_FONT, new File("font/pixel.ttf"));
 			font = font.deriveFont(24f);
